@@ -88,15 +88,15 @@ services:
     networks:
       cloud-network:    
           
-  networks:
-    cloud-network:
-      driver: bridge
+networks:
+  cloud-network:
+    driver: bridge
           
-  volumes:
-    nginx-proxy-certs:
-    nginx-proxy-vhost:
-    ncdb-data:
-    nc-nextcloud:
-    nc-apps:
-    nc-config:
-    nc-data:
+volumes:
+  nginx-proxy-certs:
+  nginx-proxy-vhost:
+  ncdb-data:
+  nc-nextcloud:
+  nc-apps:
+  nc-config:
+  nc-data:
