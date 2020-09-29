@@ -11,8 +11,8 @@ services:
       - /usr/share/nginx/html
       - /var/run/docker.sock:/tmp/docker.sock:ro
     ports:
-      - 49.12.114.201:80:80
-      - 49.12.114.201:443:443
+      - 80:80
+      - 443:443
     labels:
       - "com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy"
     networks:
